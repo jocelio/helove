@@ -25,3 +25,37 @@
      (file-seq (clojure.java.io/file "/home/jocelio/Videos/pocoyo/")))
 (map #(.getPath %) (file-seq (clojure.java.io/file "/home/jocelio/Videos/pocoyo/")))
 exit
+(run)
+(start)
+(run-dev)
+start
+(run-server)
+run-server
+(start)
+(server)
+run
+lein run
+(start-server)
+exit
+(run)
+(start)
+(start-server)
+(run-server)
+(run-server 0)
+boot
+(boot)
+start
+(-main)
+exit
+(run)
+(start-server)
+(start)
+(init)
+start
+init
+server
+(run-server)
+(run-server 0)
+exit
+(def v "video.mp4")
+(.concat v v)

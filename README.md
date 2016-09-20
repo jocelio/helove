@@ -1,11 +1,11 @@
 # Project Name
 
-helove is ....
+helove is a project what provides a service of vídeos stream in a lan.
 
 
 ## Project Goals
 
-TODO
+PlayVideos Service
 
 
 ## Community
@@ -19,70 +19,6 @@ To subscribe for announcements of releases, important changes and so on, please 
 
 ... is *very* young.
 
-
-
-## Artifacts
-
-... artifacts are [released to Clojars](https://clojars.org/helove). If you are using Maven, add the following repository
-definition to your `pom.xml`:
-
-``` xml
-<repository>
-  <id>clojars.org</id>
-  <url>http://clojars.org/repo</url>
-</repository>
-```
-
-### The Most Recent Release
-
-With Leiningen:
-
-    [helove "1.0.0-alpha1"]
-
-
-With Maven:
-
-    <dependency>
-      <groupId>clojurewerkz</groupId>
-      <artifactId>helove</artifactId>
-      <version>1.0.0-alpha1</version>
-    </dependency>
-
-
-
-## Getting Started
-
-Please refer to our [Getting Started guide](...). Don't hesitate to join our [mailing list](https://groups.google.com/forum/#!forum/clojure-...) and ask questions, too!
-
-
-## Documentation & Examples
-
-Our documentation site is not yet live, sorry.
-
-
-
-## Supported Clojure versions
-
-helove is built from the ground up for Clojure 1.5.1 and up.
-
-
-## Continuous Integration Status
-
-[![Continuous Integration status](https://secure.travis-ci.org/clojurewerkz/helove.png)](http://travis-ci.org/clojurewerkz/helove)
-
-
-
-## ... Is a ClojureWerkz Project
-
-helove is part of the [group of Clojure libraries known as ClojureWerkz](http://clojurewerkz.org), together with
- * [Monger](http://clojuremongodb.info)
- * [Langohr](https://github.com/michaelklishin/langohr)
- * [Elastisch](https://github.com/clojurewerkz/elastisch)
- * [Welle](http://clojureriak.info)
- * [Neocons](http://clojureneo4j.info)
- * [Quartzite](https://github.com/michaelklishin/quartzite) and several others.
-
-
 ## Development
 
 helove uses [Leiningen
@@ -94,7 +30,6 @@ Clojure versions using
 
 Then create a branch and make your changes on it. Once you are done
 with your changes and all tests pass, submit a pull request on GitHub.
-
 
 
 ## License
