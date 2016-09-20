@@ -17,9 +17,7 @@
           <a class="brand" href="#">{{sanitized-ns}}</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li class="active"><a href="/">Home</a></li>
               <li><a href="/videos">Videos</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -30,13 +28,6 @@
     <div class="container">
 
       <h1>Helovideos</h1>
-
-      <h3>Vídeos Disponíveis</h3>
-      <ul>
-        {{#list}}
-          <li> <a href="play-video/{{ . }}"> {{ . }} </a> </li>
-        {{/list}}
-      </ul>
 
     </div>
     <script src="/static/js/lib/jquery-1.9.1.js"></script>

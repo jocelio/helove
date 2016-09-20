@@ -59,3 +59,20 @@ server
 exit
 (def v "video.mp4")
 (.concat v v)
+run
+(run)
+(start)
+(service)
+(run-service)
+./scripts/
+exit
+helove.main $@
+)
+(helove.main $@)
+$@)
+($@)
+(-main)
+exit
+(-main)
+exit
+(-main)

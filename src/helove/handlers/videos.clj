@@ -9,7 +9,7 @@
 
 (defn play-video [video]
   (tmpl/video {:title "Vídeos"
-               :list video}))
+               :list (.concat video "teste")}))
 
 (defn get-video [video]
 	{:status 200

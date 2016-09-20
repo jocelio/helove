@@ -17,8 +17,7 @@
           <a class="brand" href="#">{{sanitized-ns}}</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
+              <li class="active"><a href="/">Home</a></li>
               <li><a href="/videos">Videos</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -28,16 +27,16 @@
 
     <div class="container">
 
-
+<>
       {{#list}}
 
 		  <h1> {{ . }} </h1>
-		
+
 		  <video width="800" height="510" controls>
 		  <source src="/videos/{{ . }}" type="video/mp4">
 		  Your browser does not support the video tag.
 		  </video>
-		
+
 	  {{/list}}
 
     </div>
