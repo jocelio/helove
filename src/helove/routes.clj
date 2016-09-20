@@ -14,7 +14,8 @@
 (defroutes server-routes*
   (GET "/" [] app/show-landing)
   (GET "/videos" [] videos/show-videos)
-  (GET "/videos/:video" [] videos/get-video)
+  (GET "/play-video/:video" [video] (videos/play-video video))
+  (GET "/videos/:video" [video] (videos/get-video video))
   (context "/api" []
            ;; JGET returns json encoding of the response
            (JGET "/time" [] api/get-time))
