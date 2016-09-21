@@ -17,8 +17,8 @@
           <a class="brand" href="#">{{sanitized-ns}}</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="/">Home</a></li>
-              <li><a href="/videos">Videos</a></li>
+              <li ><a href="/">Home</a></li>
+              <li class="active"><a href="/videos">Videos</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -26,18 +26,22 @@
     </div>
 
     <div class="container">
+        <div class="row">
+            <div class="col-md-5">
 
-<>
-      {{#list}}
+            {{#list}}
 
-		  <h1> {{ . }} </h1>
+      		  <p class="lead"> {{ . }} </p>
 
-		  <video width="800" height="510" controls>
-		  <source src="/videos/{{ . }}" type="video/mp4">
-		  Your browser does not support the video tag.
-		  </video>
+      		  <video controls>
+      		  <source src="/videos/{{ . }}" type="video/mp4">
+      		  Your browser does not support the video tag.
+      		  </video>
 
-	  {{/list}}
+      	     {{/list}}
+
+        </div>
+      </div>
 
     </div>
     <script src="/static/js/lib/jquery-1.9.1.js"></script>

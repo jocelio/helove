@@ -3,13 +3,12 @@
             [clojure.java.io :as io]))
 
 (defn show-videos [req]
-  (tmpl/landing {:user-agent (get-in req [:headers "user-agent"])
-                 :title "Vídeos"
+  (tmpl/landing {:title "Vídeos"
                  :list (map #(.getName %) (file-seq (clojure.java.io/file "/home/jocelio/Videos/pocoyo/")))}))
 
 (defn play-video [video]
   (tmpl/video {:title "Vídeos"
-               :list (.concat video "teste")}))
+               :list video}))
 
 (defn get-video [video]
 	{:status 200

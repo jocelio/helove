@@ -29,6 +29,12 @@
 
       <h1>Helovideos</h1>
 
+      <ul>
+        {{#list}}
+          <li><a href="play-video/{{ . }}"> {{ . }} </a> </li>
+        {{/list}}
+      </ul>
+
     </div>
     <script src="/static/js/lib/jquery-1.9.1.js"></script>
     <script src="/static/js/lib/bootstrap.js"></script>

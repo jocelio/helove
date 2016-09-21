@@ -76,3 +76,6 @@ exit
 (-main)
 exit
 (-main)
+exit
+(map #(.getName %) (file-seq (clojure.java.io/file "/home/jocelio/Videos/pocoyo/")))
+exit
