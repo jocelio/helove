@@ -1,8 +1,3 @@
-# Helove -> HeloVídeos
-
-helove is a project what provides a service of vídeos stream in a lan.
-
-
 ## Project Goals
 
 PlayVideos Service
